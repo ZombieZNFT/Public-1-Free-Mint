@@ -91,7 +91,6 @@ h6 {
   font-size: inherit;
 }
 
-/* / обнуление общих параметров */
 body {
   line-height: normal;
   font-size: 15px;
@@ -101,6 +100,13 @@ body {
   font-weight: 400;
   padding: 6.5vh 0 10vh 0;
   display: flex;
+
+  background: url('/images/BG1.PNG');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
 }
 
 .wrapper {
@@ -128,7 +134,7 @@ body {
   align-items: center;
 }
 .header__logo {
-  max-width: 200px;
+  max-width: 300px;
 }
 .header__right {
   margin-left: auto;
@@ -208,7 +214,7 @@ body {
 
 .main {
   flex: 1 1 auto;
-  padding-top: 8vh;
+  padding-top: 2vh;
 }
 .main__row {
   display: flex;
@@ -216,7 +222,7 @@ body {
 }
 .main__left {
   padding-right: 2%;
-  padding-top: 2%;
+  padding-top: 1%;
   width: 53%;
 }
 .main__right {
@@ -234,7 +240,7 @@ body {
 
 .number {
   font-size: calc(50px + 30 * (100vw / 1920));
-  color: #5b5b5b;
+  color: #ffffff;
   font-weight: 800;
 }
 
@@ -246,7 +252,7 @@ body {
 }
 
 .form {
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 .form-row {
